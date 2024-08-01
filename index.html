@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>brainstorming-for</title>
+</head>
+<body>
+    <script>
+        const number = +prompt("Введите число:");
+        const factorial = 1;
+
+        if (number >= 0) {
+            for (let i = 1; i <= number; i++) {
+                factorial *= i;
+            }
+            console.log(number + "! = " + factorial);
+        } else {
+            console.log("Отрицательное число!");
+        }
+    </script>
+</body>
+</html>
